@@ -15,3 +15,6 @@ services:
   type-juggling:
     build: type-juggling
     ports: ["2003:80"]
+  bin-1:
+    build: bin-1
+    ports: ["2004:1000"]
