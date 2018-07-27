@@ -1,14 +1,17 @@
 #include <stdio.h>
+#include "flag.h"
 
 int main() {
   int x = 0;
   char input[10];
 
+  printf("> ");
+  fflush(stdout);
   scanf("%s", input);
   if (x == 0xdeadbeef) {
-    puts("done");
+    printf("The flag: %s\n", FLAG);
   } else {
-    printf("You got: %0x\n", x);
+    printf("Not quite right, you got: %0x\n", x);
   }
 
   return 0;
