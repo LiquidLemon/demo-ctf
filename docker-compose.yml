@@ -6,3 +6,6 @@ services:
   bof-2:
     build: bof-2
     ports: ["2001:1000"]
+  python-input:
+    build: python-input
+    ports: ["2002:1000"]
