@@ -9,3 +9,6 @@ services:
   python-input:
     build: python-input
     ports: ["2002:1000"]
+  type-juggling:
+    build: type-juggling
+    ports: ["2003:80"]

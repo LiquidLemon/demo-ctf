@@ -1,7 +1,7 @@
 <?php
-include "secrets.php";
-
 function authenticated() {
+  require "./secrets.php";
+
   if (!isset($_POST["login"]) || !isset($_POST["password"])) {
     return false;
   }
@@ -35,7 +35,7 @@ label {
 <!-- ?debug=1 -->
 
 <?php
-if ($_GET['debug'] == 1) {
+if (isset($_GET['debug']) && $_GET['debug'] == 1) {
   show_source(__FILE__);
 }
 ?>
