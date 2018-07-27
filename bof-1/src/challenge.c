@@ -1,14 +1,17 @@
 #include <stdio.h>
+#include "flag.h"
 
 int main() {
   int x = 0;
   char buffer[10];
 
+  printf("> ");
+  fflush(stdout);
   gets(buffer);
   if (x) {
-    puts("done");
+    printf("The flag: %s\n", FLAG);
   } else {
-    puts("not yet");
+    puts("Try again");
   }
   return 0;
 }
