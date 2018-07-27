@@ -1,0 +1,10 @@
+We've already seen that hackers often coin jargon by overgeneralizing grammatical rules. This is one aspect of a more general fondness for form-versus-content language jokes that shows up particularly in hackish writing. One correspondent reports that he consistently misspells ‘wrong’ as ‘worng’. Others have been known to criticize glitches in Jargon File drafts by observing (in the mode of Douglas Hofstadter) “This sentence no verb”, or “Too repetetetive”, or “Bad speling”, or “Incorrectspa cing.” Similarly, intentional spoonerisms are often made of phrases relating to confusion or things that are confusing; ‘dain bramage’ for ‘brain damage’ is perhaps the most common (similarly, a hacker would be likely to write “Excuse me, I'm cixelsyd today”, rather than “I'm dyslexic today”). This sort of thing is quite common and is enjoyed by all concerned.
+Hackers tend to use quotes as balanced delimiters like parentheses, much to the dismay of American editors. Thus, if “Jim is going” is a phrase, and so are “Bill runs” and “Spock groks”, then hackers generally prefer to write: “Jim is going”, “Bill runs”, and “Spock groks”. This is incorrect according to standard American usage (which would put the continuation commas and the final period inside the string quotes); however, it is counter-intuitive to hackers to mutilate literal strings with characters that don't belong in them. Given the sorts of examples that can come up in discussions of programming, American-style quoting can even be grossly misleading. When communicating command lines or small pieces of code, extra characters can be a real pain in the neck.
+Consider, for example, a sentence in a vi tutorial that looks like this:
+Then delete a line from the file by typing “dd”.
+Standard usage would make this
+Then delete a line from the file by typing “dd.”
+but that would be very bad — because the reader would be prone to type the string d-d-dot, and it happens that in vi(1), dot repeats the last command accepted. The net result would be to delete two lines!
+The Jargon File follows hackish usage throughout.
+
+flag{sub$t1tut10n_c1p3rs_ar3_n0t_v3ry_s3cure}
