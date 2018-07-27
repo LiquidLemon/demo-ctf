@@ -1,0 +1,8 @@
+version: "3"
+services:
+  bof-1:
+    build: bof-1
+    ports: ["2000:1000"]
+  bof-2:
+    build: bof-2
+    ports: ["2001:1000"]

@@ -1,5 +1,0 @@
-version: "3"
-services:
-  bof-1:
-    build: .
-    ports: ["2002:1000"]
